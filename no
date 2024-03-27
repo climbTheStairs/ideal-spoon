@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo noreboot > fork
+git commit -am no
+git push
