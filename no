@@ -1,5 +1,6 @@
 #!/bin/sh
 
+git pull
 echo noreboot > fork
 git commit -am no
 git push
