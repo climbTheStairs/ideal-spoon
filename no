@@ -1,6 +1,7 @@
 #!/bin/sh
 
-git pull
-echo noreboot > fork
-git commit -am no
-git push
+git pull &&
+echo noreboot > fork &&
+git commit -am no &&
+git push ||
+echo fail >&2
